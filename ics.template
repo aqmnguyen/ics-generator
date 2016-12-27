@@ -9,6 +9,7 @@ UID:<%= uid %>
 DTSTART;TZID=<%= timezone %>:<%= startDate %>
 DTEND;TZID=<%= timezone %>:<%= endDate %>
 SUMMARY:<%= summary %>
+LOCATION:<%= location %>
 DESCRIPTION:<%= description %>
 END:VEVENT
 END:VCALENDAR
